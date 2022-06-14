@@ -31,7 +31,7 @@ var inputLength = Number(prompt("What is the desired password length?", "Enter a
 // if acceptable input length, prompt next criteria of character types
 
 //declare confirmed variable options for password character types
-alert("Please confirm character types to be included in password. Click OK to confirm selection of various character types. Please select at least one type: lowercase, uppercase, numeric, and special characters");
+alert("Please confirm characters to be included in password. Click OK to confirm selection. Please select at least one: lowercase, uppercase, numeric, and special characters");
 var confirmLowerCase = confirm(" Lowercase characters is selected");
 var confirmUpperCase = confirm(" Uppercase characters  is selected");
 var confirmNum = confirm("Numeric characters is selected");

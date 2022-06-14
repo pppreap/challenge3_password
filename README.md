@@ -43,7 +43,8 @@ These images shows the **visuals of the password generator** start page, example
 
 
 #### Links
-[Github Repository Link](https://github.com/pppreap/challenge3_password)
+[Github Repository Link](https://github.com/pppreap/challenge3_password) 
+///
 [Link to Password Generator Application](https://pppreap.github.io/challenge3_password/)
 
 #### Credits
