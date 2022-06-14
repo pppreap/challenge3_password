@@ -35,11 +35,11 @@ THEN the **password is either displayed in an alert or written to the page**.
 ### Assets
 These images shows the **visuals of the password generator** start page, example of prompt and  page of successful generation of password in the text area.
 
-![Start of the application page before generating password] (./images/passgenstart.png)
-![Example of first prompt pop-up ] (./images/prompt.png)
-![Example of prompt that would pop up if invalid input entered] (./images/invalidmsg.png)
-![Example of confirm pop up] (./images/confirmoptiontype.png)
-![Password Generation Success Page] (./images/finalsteppwgen.png)
+![Start of the application page before generating password](./images/passgenstart.png)
+![Example of first prompt pop-up ](./images/prompt.png)
+![Example of prompt that would pop up if invalid input entered](./images/invalidmsg.png)
+![Example of confirm pop up](./images/confirmoptiontype.png)
+![Password Generation Success Page](./images/finalsteppwgen.png)
 
 
 #### Links
