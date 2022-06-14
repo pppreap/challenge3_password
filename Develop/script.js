@@ -1,8 +1,5 @@
 
-
 // Assignment code here
-
-
 
 //declare values of each element in array values of each character types
 var lowercase =["a", "b" ,"c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
@@ -17,19 +14,21 @@ var inputLength; //character length specified
 function generatePassword() { 
 
 //use prompt for  password criteria determination
-
+while (true) {
 var inputLength = Number(prompt("What is the desired password length?", "Enter a number between 8 and 128."));
-
-// if acceptable input, prompt next criteria of character types
-if (inputLength > 7 && inputLength < 129) {
-  alert("Please confirm character types you would like included in the generated password. Options: lowercase, uppercase, numeric and special character type selection.");
- 
-// if not acceptable input value, alert to generate password button again to start over
-} 
-else if (!inputLength|| inputLength < 8 || inputLength > 129) {
-  prompt("Please enter valid value", " Enter Number 8-128");
+if (!inputLength) {
+  alert("Please enter valid input. Enter a number  from 8-128 characters");
 }
-//need code block break?
+else if  (inputLength < 8 || inputLength > 128) {
+prompt("Please enter valid value", " Enter a number from 8-128");
+}
+// if unacceptable input value ,  cannot move forward until correct input is entered in prompt
+else {
+break;
+}
+}
+
+// if acceptable input length, prompt next criteria of character types
 
 //declare confirmed variable options for password character types
 var confirmLowerCase = confirm(" Lowercase is selected");
