@@ -29,6 +29,7 @@ if (inputLength > 7 && inputLength < 129) {
 else if (!inputLength|| inputLength < 8 || inputLength > 129) {
   prompt("Please enter valid value", " Enter Number 8-128");
 }
+//need code block break?
 
 //declare confirmed variable options for password character types
 var confirmLowerCase = confirm(" Lowercase is selected");
